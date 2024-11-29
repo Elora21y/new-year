@@ -127,3 +127,41 @@ main section{
     height: 300px;
     width: 1140px;
  }
+ footer{
+    background-color: black;
+    padding: 50px 100px;
+ }
+ .footer{
+    display: flex;
+    justify-content: space-between;
+ }
+  .foot{
+    max-width: 485;
+  }
+ .footer-context{
+    color: white;
+    font-size: 16px;
+    /* line-height: 26; */
+    text-align: left;
+    
+ }
+ .info{
+    margin-top: 10px;
+    padding: 100px;
+ }
+ .links-image{
+    padding: 2px 100px;
+    gap: 30px;
+ }
+ .form > input{
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+
+ }
+ .form > h5{
+    color: white;
+
+ }
