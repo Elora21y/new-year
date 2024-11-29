@@ -1,0 +1,74 @@
+body{
+  font-family: "Work Sans", sans-serif;
+}
+header{
+    background-image: url('../images/banner/banner1.png');
+    /* height: 808px;
+    width: 1600px; */
+    /* background-position: 1600px 800px; */
+    background-repeat: no-repeat;
+    background-position: top left;
+    
+}
+.banner-title{
+    color: black;
+    font-size: 50px ;
+    font-weight: 700;
+}
+.banner-content ,.year-content{
+    color:#757575 ;
+    font-size: 13px;
+    font-weight: 450;
+    /* max-width: 500px; */
+    margin-top: 5px;
+    line-height: 20px;
+
+}
+.contact{
+    background-color: #F15B22;
+    color: white;
+    border-radius: 5px;
+    width: 160;
+    height: 64;
+    border: 0;
+    padding: 15px;
+    margin-top: 25px;
+}
+.banner{
+    position: top right;
+    margin-left: 600px;
+    padding: 170px 150px;
+    text-align: right;
+    
+}
+.image-context{         
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 90px 150px;
+}
+.year-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+}
+.year-content{
+    max-width: 500px;
+
+}
+.previous-year{
+    text-align: left;
+    padding: 200px 50px 0px 60px;
+
+}
+.image{
+    width: 559px;
+    height: 722px;
+}
+.list-items{
+    color: #757575;
+    margin-top: 5px;
+    line-height: 27px;
+    font-size: 13px;
+
+}
