@@ -10,6 +10,12 @@ header{
     background-position: top left;
     
 }
+main{
+    max-width: 1600px;
+}
+main section{
+    margin-top: 100px;
+}
 .banner-title{
     color: black;
     font-size: 50px ;
@@ -45,7 +51,8 @@ header{
     display: flex;
     justify-content: space-around;
     gap: 10px;
-    margin: 90px 150px;
+    /* margin: 90px 150px; */
+    padding: 50px 150px;
 }
 .year-title{
     font-size: 35px;
@@ -72,3 +79,51 @@ header{
     font-size: 13px;
 
 }
+.my-plan{
+    display: flex;
+    /* gap: 20px; */
+    text-align: center;
+    justify-content: space-around;
+}
+#plan-title{
+    text-align: center;
+}
+.plan-container > h4{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.plan-container p{
+    color: #757575;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+/* .plan-container{
+    margin-top:15px;
+} */
+ .mindset-title{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 30px;
+    max-width: 460px;
+ }
+ .btn-primary{
+    background-color: white;
+    color: #F15B22;
+    border-radius: 5px;
+    border: 0;
+    width: bold;
+    padding: 15px 25px;
+ }
+ .watch-details{
+    padding: 50px 60px;
+ }
+ .watch{
+    background-image:  url('../images/gradient3.png'), url('../images/watch.png') ;
+    background-repeat: no-repeat;
+    margin: 80px;
+    height: 300px;
+    width: 1140px;
+ }
