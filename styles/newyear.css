@@ -1,7 +1,7 @@
 body{
   font-family: "Work Sans", sans-serif;
 }
-header{
+.header{
     background-image: url('../images/banner/banner1.png');
     /* height: 808px;
     width: 1600px; */
@@ -12,7 +12,11 @@ header{
 }
 main{
     max-width: 1600px;
+    margin: 0 auto;
 }
+
+
+
 main section{
     margin-top: 100px;
 }
